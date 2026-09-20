@@ -1,0 +1,26 @@
+Benchmark,Removed_Model,Remaining_Models,Balanced_Accuracy,F1_Score
+ICCAD-1,cnn,"svm,random_forest,ann",0.8715419299562912,0.2806796727501573
+ICCAD-1,svm,"cnn,random_forest,ann",0.8687318786443665,0.27367135003054366
+ICCAD-1,random_forest,"cnn,svm,ann",0.8630682753103208,0.2650887573964497
+ICCAD-1,ann,"cnn,svm,random_forest",0.8652054841156211,0.2682634730538922
+ICCAD-1,(none - full ensemble),"cnn,svm,random_forest,ann",0.8670221116001263,0.2710223835450696
+ICCAD-2,cnn,"svm,random_forest,ann",0.8539325105156934,0.7261538461538463
+ICCAD-2,svm,"cnn,random_forest,ann",0.8797826785859113,0.7436399217221135
+ICCAD-2,random_forest,"cnn,svm,ann",0.8957379714995388,0.7564469914040115
+ICCAD-2,ann,"cnn,svm,random_forest",0.8847422232880381,0.7461240310077518
+ICCAD-2,(none - full ensemble),"cnn,svm,random_forest,ann",0.8778230749527238,0.7440944881889764
+ICCAD-3,cnn,"svm,random_forest,ann",0.9736206779070862,0.7628372497824195
+ICCAD-3,svm,"cnn,random_forest,ann",0.9728382265531037,0.7667689609820255
+ICCAD-3,random_forest,"cnn,svm,ann",0.972144840428915,0.7640498578613601
+ICCAD-3,ann,"cnn,svm,random_forest",0.9730163570126913,0.7536543422184007
+ICCAD-3,(none - full ensemble),"cnn,svm,random_forest,ann",0.9730567891174107,0.762132752992383
+ICCAD-4,cnn,"svm,random_forest,ann",0.8263822674341353,0.6170212765957446
+ICCAD-4,svm,"cnn,random_forest,ann",0.8257237537934956,0.5550239234449761
+ICCAD-4,random_forest,"cnn,svm,ann",0.8534862955817402,0.5490196078431372
+ICCAD-4,ann,"cnn,svm,random_forest",0.8624155598428922,0.5958429561200924
+ICCAD-4,(none - full ensemble),"cnn,svm,random_forest,ann",0.8427983375055141,0.5865384615384615
+ICCAD-5,cnn,"svm,random_forest,ann",0.8514854109062641,0.37662337662337664
+ICCAD-5,svm,"cnn,random_forest,ann",0.6939060356609672,0.3076923076923077
+ICCAD-5,random_forest,"cnn,svm,ann",0.7178564803188261,0.2926829268292683
+ICCAD-5,ann,"cnn,svm,random_forest",0.7182704090196074,0.3364485981308411
+ICCAD-5,(none - full ensemble),"cnn,svm,random_forest,ann",0.7422467242212651,0.31999999999999995

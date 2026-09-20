@@ -1,0 +1,30 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets & Archive downloads
+iccad12_dataset/
+iccad12_dataset.archive
+data/
+g6_results*.zip
+
+# Temporary outputs & logs (tracked figures/ and results/ are included)
+outputs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

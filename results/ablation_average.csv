@@ -1,0 +1,6 @@
+Removed_Model,Balanced_Accuracy
+cnn,0.8753925593438939
+ann,0.86073000665577
+(none - full ensemble),0.8605894074794079
+random_forest,0.8604587726278682
+svm,0.848196514647569
