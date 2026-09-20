@@ -15,6 +15,7 @@ iccad12_dataset/
 iccad12_dataset.archive
 data/
 g6_results*.zip
+Changed/
 
 # Temporary outputs & logs (tracked figures/ and results/ are included)
 outputs/
